@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import time
 
-cap = cv2.VideoCapture("./Vid/stallone.webm")
+cap = cv2.VideoCapture("path-to-your-video/camera")
 ptime = 0
 
 mp_face = mp.solutions.face_detection
